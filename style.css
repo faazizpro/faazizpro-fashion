@@ -37,3 +37,25 @@ font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 26px;
 }
+
+.woman-jacket-title{
+    color: #363958;
+    font-family: Bebas Neue;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.jacket-title{
+    color: #363958;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.jacket-p{
+    color: #3E3E3E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
