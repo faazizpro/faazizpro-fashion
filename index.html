@@ -10,12 +10,12 @@
 </head>
 <body>
     <!-- header -->
-    <header class="px-[240px] py-10 bg-[#FFFBF0]">
-        <nav class="flex justify-between items-center mb-12">
-            <div class="logo">
+    <header class="md:px-[240px] py-5 md:py-10 bg-[#FFFBF0]">
+        <nav class="flex flex-col justify-center md:flex-row md:justify-between items-center mb-12">
+            <div class="logo  flex justify-center md:justify-start md:flex-none ">
                 <img src="./icons/logo.png" class="w-5/12" alt="">
             </div>
-            <ul class="flex items-center gap-12 menu-font">
+            <ul class="md:flex md:items-center gap-3   mt-5 md:mt-0  md:gap-12 menu-font grid grid-cols-2 justify-center items-center">
                 <li><a href="">Home</a></li>
                 <li><a href="">Product</a></li>
                 <li><a href="">About Us</a></li>
@@ -23,14 +23,14 @@
             </ul>
         </nav>
         <!-- Hero Section -->
-        <section class="hero flex justify-between items-center">
+        <section class="hero flex flex-col md:flex-row justify-between items-center">
             <div class="hero-info">
-                <h1 class="hero-title w-[450px] "><span class="text-[#fabe4c]">Be the Penguins</span>
+                <h1 class="hero-title text-3xl md:text-7xl text-center md:text-left md:w-[450px] "><span class="text-[#fabe4c]">Be the Penguins</span>
                     of Winter</h1>
-                <p class="hero-p w-96 mb-5">
+                <p class="hero-p w-60 md:w-96 mb-5 ">
                     All your winter clothes are ready to go in the wild camping. Be prepare.
                 </p>
-                <button class="flex gap-3 items-center bg-[#A4BC46] rounded-xl hero-button-text px-5 py-1">
+                <button class="flex w-full md:w-auto gap-3 items-center bg-[#A4BC46] rounded-xl hero-button-text px-5 py-1">
                     <img src="./icons/shopping-cart 1.png" alt="" class="w-1/3"> BUY NOW
                 </button>
             </div>
@@ -40,7 +40,7 @@
         </section>
     </header>
 
-    <section class="woman-jacket px-[240px] mb-24 woman-jacket-title mt-12 mb-10">
+    <!-- <section class="woman-jacket px-[240px] mb-24 woman-jacket-title mt-12 mb-10">
         <h2 class="mb-10">WOMAN JACKET</h2>
         <div class="flex justify-between items-center">
             <div class="women-jackets w-[370px] shadow-2xl p-7 rounded-3xl">
@@ -162,7 +162,7 @@
                 <img src="./images/shopping.png" alt="">
             </div>
         </div>
-    </section>
+    </section> -->
 
 </body>
 </html>
